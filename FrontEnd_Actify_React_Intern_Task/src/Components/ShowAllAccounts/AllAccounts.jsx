@@ -100,7 +100,7 @@ function AllAccounts() {
     <div className="container mx-auto px-4 py-8">
       {/* Search and controls */}
       <div className="flex flex-wrap justify-between items-center gap-4 mb-4">
-        {/* Search bar and button */}
+        {/* Search bar */}
         <div className="flex flex-wrap w-full md:w-auto gap-2">
           <input
             type="text"
@@ -117,7 +117,7 @@ function AllAccounts() {
           </button>
         </div>
 
-        {/* Excel download and sort buttons */}
+        {/* Excel download and sort */}
         <div className="flex flex-col items-center md:items-start md:flex-row gap-2 w-full md:w-auto justify-center">
           <button
             onClick={handleDownloadExcel}
@@ -163,7 +163,7 @@ function AllAccounts() {
         </table>
       </div>
 
-      {/* Pagination controls */}
+      {/* Pagination */}
       <div className="flex flex-wrap justify-center items-center mt-4 gap-2">
         {renderPagination()}
       </div>

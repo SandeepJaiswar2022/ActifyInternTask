@@ -50,7 +50,6 @@ const UserDetailForm = () => {
                 <p>Make changes to your profile account here.</p>
             </div>
             <form onSubmit={handleSubmit(onSubmit)} className="mt-8 space-y-6">
-                {/* Full Name (First Name and Last Name in one row) */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="grid gap-2">
                         <label htmlFor="firstName" className="font-semibold">First Name *</label>
@@ -74,7 +73,7 @@ const UserDetailForm = () => {
                     </div>
                 </div>
 
-                {/* Email and Contact No in one row */}
+                {/* Email and Contact */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="grid gap-2">
                         <label htmlFor="email" className="font-semibold">Email *</label>
@@ -98,7 +97,7 @@ const UserDetailForm = () => {
                     </div>
                 </div>
 
-                {/* Address in one row */}
+                {/* Address */}
                 <div className="grid gap-2">
                     <label htmlFor="address" className="font-semibold">Address *</label>
                     <textarea
@@ -109,7 +108,7 @@ const UserDetailForm = () => {
                     <p className="text-red-500 text-sm">{errors.address?.message}</p>
                 </div>
 
-                {/* State, City, and Pincode in one row */}
+                {/* State, City */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="grid gap-2">
                         <label htmlFor="state" className="font-semibold">State *</label>
@@ -143,7 +142,7 @@ const UserDetailForm = () => {
                     </div>
                 </div>
 
-                {/* Submit Button */}
+                {/* Submit */}
                 <button
                     type="submit"
                     className="w-full bg-indigo-700 text-white text-lg p-3 rounded-md hover:bg-blue-600"

@@ -10,7 +10,7 @@ const Header = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    //Sorting (name), Filter() or search bar, Download Data Excel
+    //Pending : Sorting (name), Filter() or search bar, Download Data Excel
 
     return (
         <header className="bg-gray-800 text-white shadow-md">
@@ -44,12 +44,12 @@ const Header = () => {
                     <button
                         className="p-2 rounded-lg bg-blue-700 hover:bg-blue-500"
                         aria-label="Open Menu"
-                        onClick={toggleMenu} // Toggle the menu visibility
+                        onClick={toggleMenu}
                     >
                         {isMenuOpen ? (
-                            <FaTimes className="w-6 h-6 text-white" /> // Close icon
+                            <FaTimes className="w-6 h-6 text-white" />
                         ) : (
-                            <FaBars className="w-6 h-6 text-white" /> // Open icon
+                            <FaBars className="w-6 h-6 text-white" />
                         )}
                     </button>
                 </div>
