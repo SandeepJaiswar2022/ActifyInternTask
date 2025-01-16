@@ -16,14 +16,11 @@ This is a basic web application built using React for the frontend and Spring Bo
 
 ### Screen Shots
 1. Desktop
-<<<<<<< HEAD
    a.Home
+   ![Home 1](./Screenshots/home.png)
    b.Form
    c.Table
 2. Mobile(Small Devices)
-=======
-3. Mobile(Small Devices)
->>>>>>> a721ab86a647cf543fa530716a7fc259420eb5c2
 
 ## Installation and Setup
 
@@ -51,13 +48,15 @@ This is a basic web application built using React for the frontend and Spring Bo
 
 1. Navigate to the Spring Boot project folder:
 
-cd springbootfile
+  cd springbootfile
 
 2. Build the project:
-./mvn clean install
+
+  ./mvn clean install
 
 3. Run the application:
-java -jar target/BackEnd_BasicRestEndPoints_Actify-0.0.1-SNAPSHOT.jar
+
+  java -jar target/BackEnd_BasicRestEndPoints_Actify-0.0.1-SNAPSHOT.jar
 
 4. The backend will be available at http://localhost:8080.
 
