@@ -24,7 +24,7 @@ This is a basic web application built using React for the frontend and Spring Bo
   b. Form
 
    ![Form alt](./Screenshots/Form.png)
-   
+
   c. Redux Store
 
    ![Redux_store alt](./Screenshots/Redux_store.png)
@@ -38,6 +38,10 @@ This is a basic web application built using React for the frontend and Spring Bo
   a. Form(mobile)
 
    ![Form alt](./Screenshots/Form_in_Mobile_Small_Devices.png)
+ 
+  b. Home(mobile)
+
+   ![Form alt](./Screenshots/Home_Mobile.png)   
 
   c. Table(mobile)
 
