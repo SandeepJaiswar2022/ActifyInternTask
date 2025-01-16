@@ -4,11 +4,21 @@ This is a basic web application built using React for the frontend and Spring Bo
 
 ## Features
 - **Frontend**: Built with React, using `react-router-dom` for routing, `redux-toolkit` for state management, and `axios` for API calls.
+
+1. `Sorting : based on User name(Ascending or descending)`
+2. `Searching : Search by city`
+3. `Pagination : navigate to specific page`
+3. `Form Validation : using react hook form`
+4. `Excel data download : filter and download the data in excel file`
+
 - **Backend**: Developed with Spring Boot to handle REST API requests and manage database operations.
 - **Responsive Design**: Fully responsive for mobile and desktop devices. Screenshots below showcase the difference between mobile and desktop views.
 
 ### Screen Shots
 1. Desktop
+   a.Home
+   b.Form
+   c.Table
 2. Mobile(Small Devices)
 
 ## Installation and Setup
