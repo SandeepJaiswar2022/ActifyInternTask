@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { allUsers, searchBasedOn } from '../../States/UserProfile/UserProfileSlice';
 import { utils, writeFile } from 'xlsx';
 import { AiOutlineFileExcel } from 'react-icons/ai';
+import { FaEdit, FaTrash } from 'react-icons/fa';
 
 function AllAccounts() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -146,6 +147,7 @@ function AllAccounts() {
               <th className="px-4 py-2">State</th>
               <th className="px-4 py-2">City</th>
               <th className="px-4 py-2">Pin</th>
+              <th className="px-4 py-2">Actions</th>
             </tr>
           </thead>
           <tbody>
@@ -157,6 +159,12 @@ function AllAccounts() {
                 <td className="px-4 py-2">{user.state}</td>
                 <td className="px-4 py-2">{user.city}</td>
                 <td className="px-4 py-2">{user.pinCode}</td>
+                <td className="px-4 py-2">
+                  <div className='flex flex-row space-x-2'>
+                    <button className='text-green-500 text-xl hover:scale-105'><FaEdit /></button>
+                    <button className='text-red-500 text-lg hover:scale-105'><FaTrash /></button>
+
+                  </div></td>
               </tr>
             ))}
           </tbody>
