@@ -17,12 +17,31 @@ This is a basic web application built using React for the frontend and Spring Bo
 ### Screen Shots
 1. Desktop
 
+  a. Home
+
    ![Home alt](./Screenshots/Home.png)
+
+  b. Form
+
    ![Form alt](./Screenshots/Form.png)
+   
+  c. Redux Store
+
    ![Redux_store alt](./Screenshots/Redux_store.png)
+
+  d. Table
+
    ![Table alt](./Screenshots/Table.png)
   
 2. Mobile(Small Devices)
+
+  a. Form(mobile)
+
+   ![Form alt](./Screenshots/Form_in_Mobile_Small_Devices.png)
+
+  c. Table(mobile)
+
+   ![Table alt](./Screenshots/Table_in_Mobile_Small_Devices.png)
 
 ## Installation and Setup
 
