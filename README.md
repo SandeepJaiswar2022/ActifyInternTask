@@ -9,7 +9,9 @@ This is a basic web application built using React for the frontend and Spring Bo
 
 ### Screen Shots
 1. Desktop
-2. Mobile(Small Devices)
+   a.Home
+   ![image alt] (https://github.com/SandeepJaiswar2022/ActifyInternTask/blob/master/Screenshots/Home.png?raw=true)
+3. Mobile(Small Devices)
 
 ## Installation and Setup
 
